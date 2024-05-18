@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Makeup Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="left_side">
+          <img
+            src="https://femina.wwmindia.com/content/2021/oct/bridal-thumb1634726585.jpg"
+            alt="Rose gold makeup brushes"
+            class="background-image"
+          />
+        </div>
+        <div class="right_side">
+          <form action="submit.php" method="post" class="sign-up-form">
+            <h1 class="heading">Sign Up</h1>
+            <ul>
+              <li>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+              </li>
+              <li type="circle">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </li>
+              <li type="circle">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+              </li>
+              <ul>
+                <div class="checkbox-container">
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="updates"
+                      id="updates"
+                      checked
+                    />
+                    <label for="updates"
+                      >I agree alstatment in
+                      <a href="">Terms & conditions</a></label
+                    >
+                  </li>
+                </div>
+                
+              </ul>
+            </ul>
+
+            <div class="=bottom-form">
+                <button type="submit" class="sign-up-button">Sign Up</button>
+                <span>Alreadt Have Account? <a href="">login</a></span>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
